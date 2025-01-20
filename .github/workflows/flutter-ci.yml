@@ -22,7 +22,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.6.1'
+          flutter-version: '>=3.3.3 <4.0.0'
 
       # Step 3: Verify Flutter installation
       - name: Verify Flutter Installation
