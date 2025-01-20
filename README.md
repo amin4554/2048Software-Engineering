@@ -169,7 +169,7 @@ After:
     
 
 ##    9.BUILD
-  As i was scared to mess up my project i made another project name gradle test2 the project exist also in the files.
+  As i was scared to mess up my project i made another project name gradle test2 the project exist also in the files but inside the Task9 branch.
   And by mistacke i put the gradle type as plugin so my gradle build is in gradle test2/pluggin/build.gradle and the builded files are already there with the generated javadoc.
 
   Build and Test
