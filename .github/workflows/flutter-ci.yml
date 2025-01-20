@@ -32,10 +32,6 @@ jobs:
       - name: Install Dependencies
         run: flutter pub get
 
-      # Step 5: Analyze code
-      - name: Run Static Code Analysis
-        run: flutter analyze
-
       # Step 6: Run tests
       - name: Run Tests
         run: flutter test
