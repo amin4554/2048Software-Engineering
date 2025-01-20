@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the code
+      # Step 1: Checkout code
       - name: Checkout code
         uses: actions/checkout@v3
 
@@ -22,25 +22,24 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: 'stable'
+          flutter-version: '3.10.5'
 
-      # Step 3: Install dependencies
+      # Step 3: Verify Flutter installation
+      - name: Verify Flutter Installation
+        run: flutter --version
+
+      # Step 4: Install dependencies
       - name: Install Dependencies
         run: flutter pub get
 
-      # Step 4: Analyze code
+      # Step 5: Analyze code
       - name: Run Static Code Analysis
         run: flutter analyze
 
-      # Step 5: Run Tests
+      # Step 6: Run tests
       - name: Run Tests
         run: flutter test
 
-      # Step 6: Build APK (for Android)
+      # Step 7: Build APK
       - name: Build APK
         run: flutter build apk --release
-
-      # Step 7: Optional - Build IPA (for iOS)
-      # Uncomment if you are building for iOS (requires macOS runner)
-      # - name: Build iOS App
-      #   run: flutter build ipa --release
