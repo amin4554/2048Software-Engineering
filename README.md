@@ -183,7 +183,10 @@ After:
   ![javadoc](https://github.com/user-attachments/assets/1b14b1ae-5241-4f64-9c66-f29f36a1421e)
 
 ##
-  this project also uses gradle in android files to build for android.
+  this project also uses gradle in android files to build for android that were very importent for task 10.
+      build.gradle
+      build.properties
+      build.settings
 
 ##    10.CONTINOUS DELIVERY
   I have used Git Actions as CI/CD tools and after 13 tries was finally be able to put the correct versions of flutter gradle and kotlin and i was able to create a apk file of my project as a artifact.
