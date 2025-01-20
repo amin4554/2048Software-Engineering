@@ -1,0 +1,6 @@
+projectKey=2048Game
+serverUrl=http://localhost:9000
+serverVersion=25.1.0.102122
+dashboardUrl=http://localhost:9000/dashboard?id=2048Game
+ceTaskId=b2a14f6d-ecfb-4edc-925b-e5b1ccf73b80
+ceTaskUrl=http://localhost:9000/api/ce/task?id=b2a14f6d-ecfb-4edc-925b-e5b1ccf73b80
