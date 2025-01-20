@@ -186,6 +186,13 @@ After:
   this project also uses gradle in android files to build for android.
 
 ##    10.CONTINOUS DELIVERY
+  I have used Git Actions as CI/CD tools and after 13 tries was finally be able to put the correct versions of flutter gradle and kotlin and i was able to create a apk file of my project as a artifact.
+  the whole process are in Actions and the flutter-ci.yml can be found in .github/workflows/flutter-ci.yml
+  
+  ![Actions](https://github.com/user-attachments/assets/73588f02-ecc7-4d4c-8b5c-d4b9f25b36cf)
+  
+
+  
 
 ##    11.UNIT TESTS
 
