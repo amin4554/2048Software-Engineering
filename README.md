@@ -29,7 +29,15 @@ here are some screenshots that i took.
 
 ##    2.UML Diagrams
 
-Here are 3 Diaggrams : Use Case, Activity and Class Diaggrams
+  Use Case
+  
+  ![usecase](https://github.com/user-attachments/assets/2bfb7cfa-9cae-4a3d-b0d6-335b5d859b97)
+
+  Activity
+  
+  ![Activv drawio](https://github.com/user-attachments/assets/0ea461fa-1620-49f7-84de-1009737b9f6d)
+
+  Class Diaggrams
 
 
 
@@ -74,6 +82,19 @@ Document you can find the pdf here or in the files
 [Analysis.pdf](https://github.com/user-attachments/files/18473804/Analysis.pdf)
 
 ##    5.DDD
+  A.possible domains
+  ![DDD - Possible Domains for 2048 Game (A)](https://github.com/user-attachments/assets/a14e8cdb-2448-487f-b10a-bae6f3f1282e)
+
+  B.Core Domains
+  ![DDD - Core](https://github.com/user-attachments/assets/0fa1a7b0-f0ac-46d8-9e29-6affccfc08d4)
+
+  C.Core Mapping
+  ![DDD - Frame 3](https://github.com/user-attachments/assets/77e5ea99-a8c0-4208-9260-5abf943b5f9a)
+
+
+
+
+
 
 ##    6.Metrics
 
@@ -161,26 +182,30 @@ After:
   
   ![javadoc](https://github.com/user-attachments/assets/1b14b1ae-5241-4f64-9c66-f29f36a1421e)
 
-  ##
-    this project also uses gradle in android files to build for android.
+##
+  this project also uses gradle in android files to build for android.
 
 ##    10.CONTINOUS DELIVERY
 
 ##    11.UNIT TESTS
-  In the test folder i have 4 files named:
+
+  ##
+    In the test folder i have 4 files named:
       derectmerge_test.dart
       gameover_test.dart
       tilemerged_test.dart
+      button_test.dart
 I also wanted to test some gameboard logic but i was getting some hive related issues.
 ##    12.IDE
   I used android studio for the project and intelj for task 9 build management.
-  My favorite key shortcuts are:
-  Ctrl + R for finding
-  Shift + F10 to run
-  Ctrl + Z to undo 
-  Ctrl + Shift + Z to redo 
-  Ctrl + S to save
-  Ctrl + / to comment
+  ##
+    My favorite key shortcuts are:
+      Ctrl + R for finding
+      Shift + F10 to run
+      Ctrl + Z to undo 
+      Ctrl + Shift + Z to redo 
+      Ctrl + S to save
+      Ctrl + / to comment
 ##    13.AI Coding
   I used GitHub Copilot and i was pretty happy with it througghout the project and as mentioned above i used copilot to fix this error.
   
