@@ -39,3 +39,8 @@ jobs:
       # Step 7: Build APK
       - name: Build APK
         run: flutter build apk --release
+      - name: Upload APK as an artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: flutter-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
