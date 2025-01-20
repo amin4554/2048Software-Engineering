@@ -1,4 +1,3 @@
-import 'dart:ffi';
 import 'dart:math';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -278,7 +277,7 @@ class BoardManager extends StateNotifier<Board> {
   }
 
   //Move the tiles using the arrow keys on the keyboard.
-  bool onKey(RawKeyEvent event) {
+  bool onKey(KeyEvent event) {
     SwipeDirection? direction;
 
     if (event is KeyDownEvent) { // Ensure it's a key down event

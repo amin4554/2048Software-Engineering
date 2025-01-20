@@ -1,0 +1,46 @@
+name: Flutter CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-test-analyze:
+    name: Build, Test, and Analyze
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Flutter
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 'stable'
+
+      # Step 3: Install dependencies
+      - name: Install Dependencies
+        run: flutter pub get
+
+      # Step 4: Analyze code
+      - name: Run Static Code Analysis
+        run: flutter analyze
+
+      # Step 5: Run Tests
+      - name: Run Tests
+        run: flutter test
+
+      # Step 6: Build APK (for Android)
+      - name: Build APK
+        run: flutter build apk --release
+
+      # Step 7: Optional - Build IPA (for iOS)
+      # Uncomment if you are building for iOS (requires macOS runner)
+      # - name: Build iOS App
+      #   run: flutter build ipa --release
