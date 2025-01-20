@@ -278,7 +278,7 @@ class BoardManager extends StateNotifier<Board> {
   }
 
   //Move the tiles using the arrow keys on the keyboard.
-  bool onKey(KeyEvent event) {
+  bool onKey(RawKeyEvent event) {
     SwipeDirection? direction;
 
     if (event is KeyDownEvent) { // Ensure it's a key down event
