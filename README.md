@@ -2,6 +2,11 @@
 
 The 2048 Game is a Flutter-based mobile application that recreates the popular sliding tile puzzle game. This project implements a clean, reactive architecture with Flutter's Riverpod state management, ensuring efficient performance and scalability.
 
+![photo_2025-01-21_06-38-15](https://github.com/user-attachments/assets/13abb812-a091-40fb-8886-d02a70f7f473)
+
+![photo_2025-01-21_06-38-11](https://github.com/user-attachments/assets/3c608005-3f45-4733-836b-eff089a542b9)
+
+
 
 ##    1. Git
 
